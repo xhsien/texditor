@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "Texditor",
+  "name": "texditor",
   
-  "description": "This extension allows user to edit LaTeX without leaving the tab",
+  "description": "Easily type your math and get its LaTeX.",
   
   "version": "1.0",
 
