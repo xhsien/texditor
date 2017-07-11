@@ -11,5 +11,3 @@ Finally, click `Load Unpacked Extension...` and locate the previously downloaded
 ## Usage
 
 Simply type your math in the textbox and the latex will be rendered for you!
-
-![screenshot](https://github.com/chrisboo/texditor/texditor-example.PNG)
