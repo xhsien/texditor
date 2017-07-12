@@ -75,7 +75,7 @@
 .mq-math-mode .mq-root-block {
   display: -moz-inline-box;
   display: inline-block;
-  width: 100%;
+  width: 300px;
   padding: 2px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
