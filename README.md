@@ -1,15 +1,13 @@
 # texditor
 
-A chrome extension that renders LaTeX code for math equations.
+A chrome extension that lets you quickly type math and renders LaTeX.
 
 ## Getting Started
 
-This extension is not yet available in the chrome store. To enable it, download the `src` folder and go to [chrome://extensions/](chrome://extensions/) in your browser. Make sure the `developer mode` button is active.
-
-Finally, click `Load Unpacked Extension...` and locate the previously downloaded `src` folder.
+This extension is now available on Chrome Web Store.
 
 ## Usage
 
-Simply type your math in the textbox and the latex will be rendered for you!
+Type your math in the textarea and the LaTeX will be rendered for you!
 
 ![Snapshot](https://ds055uzetaobb.cloudfront.net/uploads/9EORGwaA64-texditor-snap.PNG)
