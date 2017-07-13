@@ -10,4 +10,5 @@ This extension is now available on Chrome Web Store.
 
 Type your math in the textarea and the LaTeX will be rendered for you!
 
-![Snapshot](https://ds055uzetaobb.cloudfront.net/uploads/9EORGwaA64-texditor-snap.PNG)
+![Before](https://github.com/chrisboo/texditor/blob/master/texditor-snap-bef.PNG)
+![After](https://github.com/chrisboo/texditor/blob/master/texditor-snap-aft.PNG)
