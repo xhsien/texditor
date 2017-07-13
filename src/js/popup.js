@@ -11,10 +11,12 @@ var mathField = MQ.MathField(mathFieldSpan, {
   }
 });
 
-console.log(document.getElementById("button-copy"));
-
-document.getElementById("button-copy").addEventListener("click", function() {
+document.getElementById("btn-copy").addEventListener("click", function() {
   copyToClipboard(document.getElementById("latex"));
+
+  event.target.classList.remove('btn-primary');
+  event.target.classList.add('btn-success');
+  event.target.innerHTML = "Copied!";
 });
 
 function copyToClipboard(elem) {
@@ -64,5 +66,6 @@ function copyToClipboard(elem) {
         // clear temporary content
         target.textContent = "";
     }
+
     return succeed;
 }

@@ -1,18 +1,21 @@
 <!doctype html>
 <html>
   <head>
-    <title>Texditor</title>
-    <link rel="stylesheet" href="mathquill.css"/>
-    <link rel="stylesheet" href="popup.css">
-    <script src="jquery-3.2.1.min.js"></script>
-    <script src="mathquill.js"></script>
+    <title>texditor</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mathquill.css" rel="stylesheet">
+    <link href="css/popup.css" rel="stylesheet" >
   </head>
   <body>
     <p><span id="math-field"></span></p>
     <p><i style="color: grey">After finish typing, press Ctrl+A and Ctrl+C to highlight and copy the LaTeX code.</i></p>
     <p><span id="latex"></span></p>
-    <button id="button-copy">Copy to clipboard</button>
+    <button id="btn-copy" type="button" class="btn btn-block btn-primary">Copy</button>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/mathquill.js"></script>
+    <script src="js/popup.js"></script>
   </body>
-  <script src="popup.js"></script>
 </html>
 
