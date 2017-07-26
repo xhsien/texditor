@@ -3,3 +3,7 @@ body {
   width: 300px;
   font-size: 14px;
 }
+
+#math-field {
+    padding: 3px;
+}
