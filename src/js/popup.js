@@ -7,6 +7,10 @@ var mathField = MQ.MathField(mathFieldSpan, {
   handlers: {
     edit: function() { // useful event handlers
       latexSpan.textContent = mathField.latex();
+      var btn = document.getElementById("btn-copy");
+      btn.classList.remove("btn-success");
+      btn.classList.add("btn-primary");
+      btn.innerHTML = "Copy";
     }
   }
 });
